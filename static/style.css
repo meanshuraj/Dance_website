@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Chela+One&display=swap');
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding:0px;
+}
+#logo{
+    display:flex;
+    color:white;
+    align-items: center;
+    margin:0px 14px;
+}
+#logo img{
+    height:50px;
+    margin-top: -14px;
+    margin-right: 10px;
+}
+#navbar{
+    background-color: #b34545;
+    height:56px;
+    padding: 18px 14px;
+    font-family: 'Chela One', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding:13px 30px;
+    color: white;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    padding-bottom: 23px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url('/static/bg\(dance\).jpg');
+    height:420px;
+    /* background-color: red; */
+    font-family: 'Agdasima', sans-serif;
+    font-size: 68px;
+}
+
+#introSection div.small{
+    font-size: 38px;
+    padding: 5px;
+}
+
+#missionSection{
+    margin:auto;
+    width:67%;
+    height:350px;
+    background-color: white;
+    display: block;
+    
+}
+#missionSection h2{
+    font-size: 35px;
+    text-align: center;
+    padding:11px;
+    font-family: 'Agdasima', sans-serif;
+}
+.card {
+    display: inline-block;
+    margin: 13px 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-family:'Agdasima', sans-serif ;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+ 
+.card-img {
+    height: 102px;
+    padding: 15px 18px;
+    margin: 14px 4px;
+}
+.card-img img{
+    height:inherit;
+    
+}
+
+.card-content {
+    padding: 1px 13px;
+    margin: 7px -5px;
+}
+
+.card-content p{
+    font-size: 18px;
+}
+
+
+#sponsorsSection{
+    height:300px;
+    background-color: #bd5f9da6;
+    
+}
+
+#sponsorsSection h2{
+    font-size: 42px;
+    text-align: center;
+    padding:11px;
+    font-family: 'Agdasima', sans-serif;
+}
+
+#sponsors{
+    height:120px;
+    max-width: 1000px;
+    margin:auto;
+}
+
+.spImage{
+    height:100%;
+    margin:20px;
+
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 54px;
+    background-color: blue;
+    font-size: 15px;
+}

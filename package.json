@@ -1,0 +1,15 @@
+{
+  "name": "dancing_website",
+  "version": "1.0.0",
+  "description": "This is a simple Dancing Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anshu_Raj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

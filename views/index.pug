@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+           div#logo 
+               img(src='/static/image/logo_02.png')
+               | HDA
+           li #[a(href="#") Home ]
+           li #[a(href="#") About ]
+           li #[a(href="#") Services ]
+           li #[a(href="#") Class-Info ]
+           li #[a(href="#") Contact-Us]
+
+    section#introSection 
+        div  Welcome to Our Dance Academy 
+        div.small  Eat Dance sleep Repeat
+    
+    section#missionSection 
+        h2  Our Mission
+        div.card 
+           h3 Dance perfection 
+           div.card-box 
+               div.card-img
+                   img(src='/static/image/card_01.png')
+               .card-content 
+                     p This is best dance academy of the universe
+        div.card 
+           h3 Dance the way wo like
+            div.card-box 
+               div.card-img
+                   img(src='/static/image/card_02.png')
+               .card-content 
+                     p This is best dance academy of the universe
+        div.card 
+           h3 Expert Teaching
+            div.card-box 
+               div.card-img
+                   img(src='/static/image/card_03.png')
+               .card-content 
+                     p This is best dance academy of the universe
+        
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src='/static/sponsore/logo_01.png' alt="sponsor Image" class="spImage")
+            img(src='/static/sponsore/logo_02.png' alt="sponsor Image" class="spImage")
+            img(src='/static/sponsore/logo_03.png' alt="sponsor Image" class="spImage")
+            img(src='/static/sponsore/logo_04.png' alt="sponsor Image" class="spImage")
+    
+    footer#footer 
+        |  copyright © 2019 DanceAcademy.com | All right reserved
+    script
+      include ../static/index.js
